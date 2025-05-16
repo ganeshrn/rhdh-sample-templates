@@ -33,7 +33,6 @@ spec:
         token: ${{ parameters.token }}
         values:
            template:
-             name: Demo Job Template
              id: 7
   output:
     text:
