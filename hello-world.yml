@@ -27,12 +27,12 @@ spec:
               show: false
   steps:
     - id: launch-job
-      name: Launch hellow world jib
+      name: Demo Job Template
       action: rhaap:launch-job-template
       input:
         token: ${{ parameters.token }}
         values:
-           template: Demo Job Template
+           templateID: null
   output:
     text:
       - title: >-
